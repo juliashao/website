@@ -1,0 +1,197 @@
+html {
+	font-family: 'SofiaProLight', sans-serif;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color:#fcd7cb;
+}
+nav {
+	font-size: 14px;
+}
+footer {
+	font-size: 10px;
+	padding-right:10px;
+	position: fixed;
+	right:0;
+	bottom:0;
+}
+.photo img {
+	height: 300px;
+	width: auto;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.home {
+	background: url('file:///Users/juliashao/Desktop/portfolio/S:F15/000002950013.jpg') no-repeat 0 0;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	text-align: center;
+}
+.row {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.row .col-md-12  {
+	position: absolute;
+	height: auto;
+	top: 300px;
+	left: 20px;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.home .medialinks {
+	position:absolute;
+	bottom:42px;
+	overflow:hidden;
+	display:inline-block;
+	-webkit-transform: translate(-45%, 0); 
+	list-style-type: none;
+}
+.home .medialinks li {
+	float:left;
+	margin-right:10px;
+}
+.header {
+	color: #ffffff;
+	position: absolute;
+	text-align: center;
+	width: calc(100% - 20px);
+	top: 0;
+	margin:auto;
+}
+.header p {
+	font-size: 14px;
+	padding-top: 3em;
+	letter-spacing: 10px;
+}
+.homeimage img {
+	padding-top:2.45em;
+}
+.button {
+	font-size: 18px;
+	color: #ffffff;
+	letter-spacing: 2px;
+	width: 90px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    margin: auto;
+
+}
+.button:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+.col-md-12 {
+	text-align: center;
+
+}
+.menu li {
+	cursor:pointer;
+	font-size: 14px;
+	padding-top: 35px;
+	display: inline;
+	padding-right: 30px;
+	text-decoration:none;
+}
+.bio {
+	width: 40px;
+	height: 40px;
+	border: 4px solid #fcd7cb;
+}
+.thumbnail {
+	position:relative;
+	width: 200px;
+	height: auto;
+	margin:30px;
+}
+.bio:hover {
+	width: 250px;
+	height: 250px;
+	border: 4px solid #fcd7cb;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+	#screen_1200 {
+		display: block;
+	}
+
+}
+/* Tablet */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	#screen_992 {
+		display: block;
+	}
+
+}
+/* Mobile */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#screen_768 {
+		display: block;
+	}
+
+}
+/* Smaller Mobile */
+@media only screen and (max-width: 767px) {
+	#screen_small {
+		display: block;
+	}
+
+}
+
+/* Specific Mobile Device Media Queries */
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) { 
+	#screen_iPhone6Plus {
+		display: block;
+	}
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (device-aspect-ratio: 375/667) { 
+	#screen_iPhone6 {
+		display: block;
+	}
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) {
+	#screen_GalaxyS5{
+		display: block;
+	}
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (device-aspect-ratio: 40/71) {
+	#screen_iPhone5 {
+		display: block;
+	}
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (device-aspect-ratio: 2/3) {
+	#screen_iPhone4 {
+		display: block;
+	}
+}
