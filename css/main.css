@@ -22,6 +22,7 @@ footer {
 
 #home-carousel .item{
   margin: 3px;
+  padding-top:1em;
 }
 #home-carousel .item img{
   display: block;
