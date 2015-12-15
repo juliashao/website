@@ -30,6 +30,10 @@ $(document).ready(function () {
   
 });
 
+$(".bio").hover(function(){ $(".text").addClass('hover') },
+    function(){ $(".text").removeClass('hover') })
+    
+
 $('#photos .preview .item img').hover(
     function(){
       $(this).css('opacity', '0.7');
