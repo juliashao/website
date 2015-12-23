@@ -281,9 +281,11 @@ footer {
 }
 
 .preview .item .text-content {
-	margin-top: 50%;
+	margin-top: 45%;
 
-
+}
+.project{
+	text-align:center;
 }
 #photos .preview .item img {
 	padding-top:4px;
